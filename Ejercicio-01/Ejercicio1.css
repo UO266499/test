@@ -14,7 +14,7 @@ h1{
 /* Especificidad 0,0,1 */
 /* No hace falta especificar fondo ya que lo hereda de body*/
 h2{
-    color: #adad47;
+   color: #22220a;
 }
 
 /* Especificidad 0,0,1 */
