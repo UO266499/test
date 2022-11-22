@@ -1,0 +1,24 @@
+/* Especificidad 0,0,1 */
+body{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Especificidad 0,0,1 */
+/* No hace falta especificar fondo ya que lo hereda de body*/
+h1{
+    color: #614949;
+}
+
+/* Especificidad 0,0,1 */
+/* No hace falta especificar fondo ya que lo hereda de body*/
+h2{
+    color: #adad47;
+}
+
+/* Especificidad 0,0,1 */
+/* No hace falta especificar fondo ya que lo hereda de body*/
+p{
+    color: #ff0000;
+}

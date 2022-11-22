@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="CalculadoraRPN.js"></script>
+    <title>Calculadora RPN</title>
+    <link rel="stylesheet" href="CalculadoraRPN.css">
+</head>
+<body>
+    <main>
+        <h1>Calculadora RPN</h1>
+        <section>
+            <h2>RPN</h2>
+            <input type="text" readonly>
+            <input type="text" readonly>
+            <input type="text" readonly>
+            <input type="text" readonly>
+            <input type="text" readonly>
+
+            <button type="button" accesskey="s" onclick="calculadora.sin()">sin</button>
+            <button type="button" accesskey="c" onclick="calculadora.cos()">cos</button>
+            <button type="button" accesskey="t" onclick="calculadora.tan()">tan</button>
+            <button type="button" accesskey="b" onclick="calculadora.borrar()">C</button>
+
+            <button type="button" accesskey="i" onclick="calculadora.arcSin()">arcSin</button>
+            <button type="button" accesskey="n" onclick="calculadora.arcCos()">arcCos</button>
+            <button type="button" accesskey="r" onclick="calculadora.arcTan()">arcTan</button>
+            <button type="button" accesskey="q" onclick="calculadora.raiz()">&#8730;</button>
+
+            <button type="button" accesskey="7" value="7" onclick="calculadora.digitos(this.value)">7</button>
+            <button type="button" accesskey="8" value="8" onclick="calculadora.digitos(this.value)">8</button>
+            <button type="button" accesskey="9" value="9" onclick="calculadora.digitos(this.value)">9</button>
+            <button type="button" accesskey="*" onclick="calculadora.multiplicacion()">*</button>
+
+            <button type="button" accesskey="4" value="4" onclick="calculadora.digitos(this.value)">4</button>
+            <button type="button" accesskey="5" value="5" onclick="calculadora.digitos(this.value)">5</button>
+            <button type="button" accesskey="6" value="6" onclick="calculadora.digitos(this.value)">6</button>
+            <button type="button" accesskey="/" onclick="calculadora.division()">/</button>
+
+            
+            <button type="button" accesskey="1" value="1" onclick="calculadora.digitos(this.value)">1</button>
+            <button type="button" accesskey="2" value="2" onclick="calculadora.digitos(this.value)">2</button>
+            <button type="button" accesskey="3" value="3" onclick="calculadora.digitos(this.value)">3</button>
+            <button type="button" accesskey="+" onclick="calculadora.suma()">+</button>
+            
+            <button type="button" accesskey="0" value="0" onclick="calculadora.digitos(this.value)">0</button>
+            <button type="button" accesskey="." onclick="calculadora.punto()">.</button>
+            <button type="button" accesskey="=" onclick="calculadora.igual()">=</button>
+            <button type="button" accesskey="-" onclick="calculadora.resta()">-</button>
+    
+        </section>
+        </main>
+</body>
+</html>

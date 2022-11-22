@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="CalculadoraCientifica.js"></script>
+    <title>Calculadora Cientifica</title>
+    <link rel="stylesheet" href="CalculadoraCientifica.css">
+</head>
+<body>
+    <main>
+    <h1>Calculadora Cientifica</h1>
+    <section>
+        <h2>Windows 10</h2>
+        <input type="text" readonly>
+
+        <button type="button" accesskey="d" onclick="calculadora.deg()">DEG</button>
+        <button type="button" accesskey="h" onclick="calculadora.hyper()">HYP</button>
+        <button type="button" accesskey="f" onclick="calculadora.fe()">F-E</button>
+
+        <button type="button" accesskey="x" onclick="calculadora.mc()">MC</button>
+        <button type="button" accesskey="t" onclick="calculadora.mr()">MR</button>
+        <button type="button" accesskey="p" onclick="calculadora.mMas()">M+</button>
+        <button type="button" accesskey="m" onclick="calculadora.mMenos()">M-</button>
+        <button type="button" accesskey="s" onclick="calculadora.ms()">MS</button>
+
+        <button type="button" accesskey="q" onclick="calculadora.elevado2()">x^2</button>
+        <button type="button" accesskey="y" onclick="calculadora.elevadoY()">x^y</button>
+        <button type="button" accesskey="n" onclick="calculadora.sin()">sin</button>
+        <button type="button" accesskey="o" onclick="calculadora.cos()">cos</button>
+        <button type="button" accesskey="a" onclick="calculadora.tan()">tan</button>
+
+        <button type="button" accesskey="r" onclick="calculadora.raiz()">&#8730;</button>
+        <button type="button" accesskey="z" onclick="calculadora.diezAX()">10^x</button>
+        <button type="button" accesskey="l" onclick="calculadora.log()">log</button>
+        <button type="button" accesskey="ñ" onclick="calculadora.exp()">Exp</button>
+        <button type="button" accesskey="u" onclick="calculadora.mod()">Mod</button>
+
+        <button type="button" accesskey="w" onclick="calculadora.inverse()">&#8593;</button>
+        <button type="button" accesskey="e" onclick="calculadora.borrarUltimo()">CE</button>
+        <button type="button" accesskey="c" onclick="calculadora.borrar()">C</button>
+        <button type="button" accesskey="k" onclick="calculadora.del()">&#8592;</button>
+        <button type="button" accesskey="/" onclick="calculadora.division()">/</button>
+
+        <button type="button" accesskey="j" onclick="calculadora.pi()">π</button>
+        <button type="button" accesskey="7" value="7" onclick="calculadora.digitos(this.value)">7</button>
+        <button type="button" accesskey="8" value="8" onclick="calculadora.digitos(this.value)">8</button>
+        <button type="button" accesskey="9" value="9" onclick="calculadora.digitos(this.value)">9</button>
+        <button type="button" accesskey="*" onclick="calculadora.multiplicacion()">*</button>
+        
+        <button type="button" accesskey="g" onclick="calculadora.factorial()">n!</button>
+        <button type="button" accesskey="4" value="4" onclick="calculadora.digitos(this.value)">4</button>
+        <button type="button" accesskey="5" value="5" onclick="calculadora.digitos(this.value)">5</button>
+        <button type="button" accesskey="6" value="6" onclick="calculadora.digitos(this.value)">6</button>
+        <button type="button" accesskey="-" onclick="calculadora.resta()">-</button>
+
+        <button type="button" accesskey="v" onclick="calculadora.mas_menos()">+-</button>
+        <button type="button" accesskey="1" value="1" onclick="calculadora.digitos(this.value)">1</button>
+        <button type="button" accesskey="2" value="2" onclick="calculadora.digitos(this.value)">2</button>
+        <button type="button" accesskey="3" value="3" onclick="calculadora.digitos(this.value)">3</button>
+        <button type="button" accesskey="+" onclick="calculadora.suma()">+</button>
+        
+        <button type="button" accesskey="(" onclick="calculadora.abreParentesis()">(</button>
+        <button type="button" accesskey=")" onclick="calculadora.cierraParentesis()">)</button>
+        <button type="button" accesskey="0" value="0" onclick="calculadora.digitos(this.value)">0</button>
+        <button type="button" accesskey="." onclick="calculadora.punto()">.</button>
+        <button type="button" accesskey="i" onclick="calculadora.igual()">=</button>
+
+    </section>
+    </main>
+    
+</body>
+</html>

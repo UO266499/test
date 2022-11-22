@@ -1,0 +1,117 @@
+/* Especificidad 0,0,1 */
+body{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+/* Especificidad 0,0,1 */
+main{
+    width: 40vw;
+}
+
+/* Especificidad 0,0,1 */
+/* No hace falta especificar color de letra ya que lo hereda de body*/
+section{
+    background-color: #e7e7e7;
+    display: grid;
+    height: 60vh;
+    border: 0.2rem solid;
+    border-radius: 2%;
+    grid-gap: 1%;
+    grid-template-columns:19.2% 19.2% 19.2% 19.2% 19.2%;
+}
+
+/* Especificidad 0,0,1 */
+h2{
+    grid-column: span 5;
+    margin: 0;
+    justify-self: center;
+    align-self: center;
+}
+
+/* Especificidad 0,0,1 */
+/* No hace falta especificar color de letra ya que lo hereda de body*/
+input{
+    grid-column: span 5;
+    border-radius: 5%;
+    text-align: right;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #e7e7e7;
+}
+
+/* Especificidad 0,0,1 */
+/* No hace falta especificar color de letra ya que lo hereda de body*/
+button{
+    background-color: #f1f1f1;
+    border: none;
+}
+
+/* De aqui a abajo tampoco haria falta añadir el color de letra, pero era para no ver tanto warning y ver si habia algo mal*/
+
+/* Especificidad 0,1,2 */
+section > button:nth-child(27){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+
+/* Especificidad 0,1,2 */
+section > button:nth-child(28){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+
+/* Especificidad 0,1,2 */
+section > button:nth-child(29){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+
+/* Especificidad 0,1,2 */
+section > button:nth-child(32){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+/* Especificidad 0,1,2 */
+section > button:nth-child(33){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+/* Especificidad 0,1,2 */
+section > button:nth-child(34){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+/* Especificidad 0,1,2 */
+section > button:nth-child(37){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+/* Especificidad 0,1,2 */
+section > button:nth-child(38){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+/* Especificidad 0,1,2 */
+section > button:nth-child(39){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+/* Especificidad 0,1,2 */
+section > button:nth-child(43){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+/* Especificidad 0,1,2 */
+section > button:nth-child(44){
+    background-color: #fbfbfb;
+    color: #000000;
+}
+/* Especificidad 0,1,2 */
+section > button:nth-child(6){
+    grid-column-end: 2;
+}
+
+

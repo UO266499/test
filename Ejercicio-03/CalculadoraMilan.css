@@ -1,0 +1,39 @@
+/* Especificidad 0,0,1 */
+body{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+/* Especificidad 0,0,1 */
+section{
+    display: grid;
+    height: 60vh;
+    border: 0.2rem solid;
+    border-radius: 2%;
+    grid-gap: 1%;
+    grid-template-columns:19.2% 19.2% 19.2% 19.2% 19.2%;
+}
+
+/* Especificidad 0,0,1 */
+h2{
+    grid-column: span 5;
+    margin: 0;
+    justify-self: center;
+    align-self: center;
+}
+
+/* Especificidad 0,0,1 */
+input{
+    grid-column: span 5;
+    border-radius: 5%;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+/* Especificidad 0,1,1 */
+button:last-child{
+    grid-column: span 2;
+}
